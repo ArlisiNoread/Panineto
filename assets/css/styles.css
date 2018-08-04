@@ -1,0 +1,108 @@
+.circle_for_div {
+  border:2px solid black;
+  margin:5%;
+  margin-top: 2%;
+  height:20%;
+  border-radius:25px;
+  background: black;
+}
+
+.logo_emailInput {
+  text-align:center;
+}
+
+
+
+section-banner-box::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background/dotted-overlay.png) center center repeat;
+    background-color: rgba(0,0,0,0.30);
+}
+
+
+.section-banner-box {
+    position: relative;
+    padding: 100px 0px;
+    color: #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.logo img{
+    
+    z-index: 10; 
+    width: 130px;
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    padding: 10px;
+    !border: 1px solid white;
+    border-radius: 50%;
+    background-color: white
+    
+}
+
+
+.icono-servicio {
+    font-size: 30px; 
+    padding: 10px;
+    
+    !width: 50px;
+    color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    
+    
+}
+
+.red-social {
+    padding-left: 50%;
+    text-align: center;
+}
+
+
+.botones-nav {
+    margin-right: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+.ending-logo {
+    width: 130px;
+    padding: 10px;
+    !border: 1px solid white;
+    border-radius: 50%;
+    background-color: white
+
+}
+
+.suscribete-newsletter-texto{
+    margin-top:20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font
+    
+}
+
+
+
+.div-email{
+    width: 450px;  
+}
+
+.lado-izquierdo-boton {
+    color: aqua;
+    background-color: green;
+}
