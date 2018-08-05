@@ -104,11 +104,34 @@ section-banner-box::before {
     width: 450px;  
 }
 
-.lado-izquierdo-boton {
-    color: aqua;
-    background-color: green;
+.lado-izquierdo-boton-1 {
+    
+    background-color: white;
+    background-color: black;
     margin: 0 auto;
-    position: relative;
-    left: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 13px;
     z-index: 9;
+    position: absolute;
+    float: left;
+    left: 0px;
+    
+}
+
+.lado-izquierdo-boton-2 {
+    
+    background-color: white;
+    background-color: black;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    z-index: 9;
+    position: absolute;
+    clear: left;
+    left: 69px;
+    
 }
