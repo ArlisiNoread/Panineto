@@ -5,8 +5,10 @@ div.jumbotron.carousel-hero {
   background-size:cover;
   background-position:center;
   padding-top:200px;
-  padding-bottom:0px;
+  padding-bottom:102px;
   margin-bottom:0;
+  height: 200px;
+  width: auto;
 }
 
 div.jumbotron.hero-nature {
