@@ -53,13 +53,11 @@ section-banner-box::before {
 
 
 
-
-
 .icono-servicio {
-    font-size: 30px; 
     padding: 10px;
     
-    !width: 50px;
+    width: 55px;
+    height: 55px;
     color: white;
     border-style: solid;
     border-radius: 50%;
@@ -152,5 +150,10 @@ section-banner-box::before {
     color: #ffffff;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
+    !border-style: solid;
+    border-radius: 50%;
+    background: radial-gradient(rgba(255,255,255, 0.8) 5%, rgba(255,255,255, 0.5) 70%, rgba(255,255,255, 0.1) 100%);
+    !background-blend-mode: screen;
     
 }
+
