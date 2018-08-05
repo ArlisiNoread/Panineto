@@ -147,3 +147,10 @@ section-banner-box::before {
     padding-left: 6px;
     margin-right: 20px;
 }
+
+.list-inline-item {
+    color: #ffffff;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    
+}
