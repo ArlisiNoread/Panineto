@@ -1,3 +1,18 @@
+.logo img{
+    
+    z-index: 10; 
+    width: 130px;
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    padding: 10px;
+    !border: 1px solid white;
+    border-radius: 50%;
+    background-color: white
+    
+}
+
+
 .circle_for_div {
   border:2px solid black;
   margin:5%;
@@ -38,19 +53,6 @@ section-banner-box::before {
 
 
 
-.logo img{
-    
-    z-index: 10; 
-    width: 130px;
-    position: absolute;
-    left: 45%;
-    top: 4%;
-    padding: 10px;
-    !border: 1px solid white;
-    border-radius: 50%;
-    background-color: white
-    
-}
 
 
 .icono-servicio {
@@ -105,4 +107,8 @@ section-banner-box::before {
 .lado-izquierdo-boton {
     color: aqua;
     background-color: green;
+    margin: 0 auto;
+    position: relative;
+    left: 0%;
+    z-index: 9;
 }
