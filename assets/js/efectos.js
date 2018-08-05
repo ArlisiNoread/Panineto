@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
     
-    if($(window).width() < 768) {
+    if($(window).width() < 990) {
         console.log("Logo Estático");
         $('#logo-id').css({
             'width' :'58px',
@@ -15,15 +15,15 @@ $(document).ready(function(){
 
 $(window).resize(function(){ 
 
-    if($(window).width() < 768) {
-        console.log("Logo Estático < 768");
+    if($(window).width() < 990) {
+        console.log("Logo Estático < 990");
         $('#logo-id').css({
             'width' :'58px',
             'left' : '150px',
             display:'block'
         });
     }  else  {
-        console.log("Logo Estático >= 768");
+        console.log("Logo Estático >= 990");
         $('#logo-id').css({
             'width' :'58px', 
             'left' : '45%',
@@ -34,7 +34,7 @@ $(window).resize(function(){
         
     }
     
-    if( $(this).scrollTop() > 10 && $(window).width() >= 768) {
+    if( $(this).scrollTop() > 10 && $(window).width() >= 990) {
         console.log("Logo Adaptado");
         $('#logo-id').css({
             'width' :'58px', 
@@ -45,7 +45,7 @@ $(window).resize(function(){
         });
     } 
     
-    if( $(this).scrollTop() <= 10 && $(window).width() >= 768) {
+    if( $(this).scrollTop() <= 10 && $(window).width() >= 990) {
         console.log("Logo Adaptado Minimizar");
         $('#logo-id').css({
             'width' :'130px', 
@@ -59,7 +59,7 @@ $(window).resize(function(){
 
 
 $(document).scroll(function() {
-    if( $(this).scrollTop() > 10 && $(window).width() >= 768) {
+    if( $(this).scrollTop() > 10 && $(window).width() >= 990) {
         console.log("Logo Adaptado");
         $('#logo-id').css({
             'width' :'58px', 
@@ -70,7 +70,7 @@ $(document).scroll(function() {
         });
     } 
       
-    if( $(this).scrollTop() <= 10 && $(window).width() >= 768) {
+    if( $(this).scrollTop() <= 10 && $(window).width() >= 990) {
         console.log("Logo Adaptado Minimizar");
         $('#logo-id').css({
             'width' :'130px', 
