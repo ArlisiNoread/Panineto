@@ -84,12 +84,8 @@ section-banner-box::before {
 }
 
 .ending-logo {
-    width: 200px;
-    padding: 5px;
-    border: 0.1px solid white;
-    border-radius: 50%;
-    background-color: white;
-
+    width: 300px;
+    padding: 19px;
 }
 
 .suscribete-newsletter-texto{
