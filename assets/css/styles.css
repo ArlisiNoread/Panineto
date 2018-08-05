@@ -110,14 +110,17 @@ section-banner-box::before {
     background-color: black;
     margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 32px;
     padding-top: 20px;
     padding-bottom: 13px;
     z-index: 9;
     position: absolute;
     float: left;
     left: 0px;
-    
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
 }
 
 .lado-izquierdo-boton-2 {
@@ -132,6 +135,15 @@ section-banner-box::before {
     z-index: 9;
     position: absolute;
     clear: left;
-    left: 69px;
+    left: 76px;
+    text-align: center;
+
     
+}
+
+.icon-navbar {
+    color: white;
+    font-size: 20px;
+    padding-left: 6px;
+    margin-right: 20px;
 }
