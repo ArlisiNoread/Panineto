@@ -1,10 +1,11 @@
+
 div.jumbotron.carousel-hero {
   color:#fff;
   text-align:center;
   background-size:cover;
   background-position:center;
-  padding-top:100px;
-  padding-bottom:100px;
+  padding-top:350px;
+  padding-bottom:300px;
   margin-bottom:0;
 }
 
@@ -35,7 +36,7 @@ p.hero-subtitle {
 .div_icon {
   height:400px;
   width:200px;
-  border:2px solid;
+  border:px solid;
   align-self:center;
 }
 
