@@ -67,13 +67,16 @@ section-banner-box::before {
 }
 
 .red-social {
-    padding-left: 50%;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
     text-align: center;
 }
 
 
 .botones-nav {
-    margin-right: 50px;
+    margin-right: 0px;
     width: 150px;
     text-align: center;
 }
@@ -111,8 +114,9 @@ section-banner-box::before {
     padding-top: 20px;
     padding-bottom: 13px;
     z-index: 9;
-    position: absolute;
+    position: fixed;
     float: left;
+    top: 0px;
     left: 0px;
     text-align: center;
     border-style: solid;
@@ -130,8 +134,9 @@ section-banner-box::before {
     padding-top: 20px;
     padding-bottom: 13px;
     z-index: 9;
-    position: absolute;
+    position: fixed;
     clear: left;
+    top: 0px;
     left: 76px;
     text-align: center;
 
