@@ -76,6 +76,10 @@ section-banner-box::before {
     text-align: center;
 }
 
+.red-social a {
+    color: darkgrey;
+    text-decoration: none;
+}
 
 .botones-nav {
     margin-right: 0px;
@@ -152,10 +156,6 @@ section-banner-box::before {
     color: #ffffff;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
-    !border-style: solid;
-    border-radius: 50%;
-    background: radial-gradient(rgba(255,255,255, 0.8) 5%, rgba(255,255,255, 0.5) 70%, rgba(255,255,255, 0.1) 100%);
-    !background-blend-mode: screen;
-    
+
 }
 
