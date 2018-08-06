@@ -9,18 +9,28 @@ div.jumbotron.carousel-hero {
   margin-bottom:0;
   height: 200px;
   width: auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 div.jumbotron.hero-nature {
   background-image:url('../../assets/img/slider/1.jpg');
+
+  font-size: 20px;
+  align-content: center;
 }
 
 div.jumbotron.hero-photography {
   background-image:url('../../assets/img/slider/30.jpg');
+
+        font-size: 20px;
+      align-content: center;
 }
 
 div.jumbotron.hero-technology {
   background-image:url('../../assets/img/slider/15.jpg');
+
+    font-size: 20px;
+      align-content: center;
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -33,6 +43,7 @@ p.hero-subtitle {
   margin:25px auto;
   padding:10px 15px;
   color:#fff;
+    font-family: 'Lato', sans-serif;
 }
 
 .div_icon {
