@@ -375,7 +375,44 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 /* ---------------------------------------------- /*
  * 
- * Eventos.html    
+ * eventos.html    
  * 
 /* ---------------------------------------------- */
 
+<<<<<<< HEAD
+.text-center
+{
+        font-family: 'Lato', sans-serif;
+    color: black;
+}
+=======
+
+
+
+
+
+/* ---------------------------------------------- /*
+ * 
+ * localizanos.html    
+ * 
+/* ---------------------------------------------- */
+
+.google-maps {
+    position: relative;
+    !padding-bottom: 30%; // This is the aspect ratio
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.google-maps iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 700px !important;
+    max-height: 700px !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+>>>>>>> 4ae0f41309820fdea8c23c0b12aaec32dfa34448
