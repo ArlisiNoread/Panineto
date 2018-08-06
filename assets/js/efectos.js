@@ -7,7 +7,7 @@ $(document).ready(function(){
         console.log("Logo Estático");
         $('#logo-id').css({
             'width' :'58px',
-            'left' : '150px',
+            'left' : '155px',
             display:'block'
         });
     } 
@@ -19,7 +19,7 @@ $(window).resize(function(){
         console.log("Logo Estático < 990");
         $('#logo-id').css({
             'width' :'58px',
-            'left' : '150px',
+            'left' : '155px',
             display:'block'
         });
     }  else  {
