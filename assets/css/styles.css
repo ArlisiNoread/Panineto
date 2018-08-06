@@ -407,16 +407,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     height: auto;
     overflow: hidden;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 .google-maps iframe {
     position: relative;
     top: 0;
     left: 0;
-    max-width: 700px !important;
-    max-height: 700px !important;
+    max-width: 2000px !important;
+    max-height: 1000px !important;
     width: 100% !important;
     height: 100% !important;
 }
+
+
 
 <<<<<<< HEAD
 >>>>>>> 4ae0f41309820fdea8c23c0b12aaec32dfa34448
