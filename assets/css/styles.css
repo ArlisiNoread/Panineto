@@ -430,10 +430,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  * 
 /* ---------------------------------------------- */
 
-.form-contacto {
-    padding: 70px;
-    padding-left: 200px;
-    padding-right: 200px;
+#pdv-formato {
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
     font-family: 'Lato', sans-serif;  
 }
 

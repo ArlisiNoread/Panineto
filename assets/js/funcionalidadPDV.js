@@ -14,3 +14,12 @@ function restButton (item) {
              $('#cantidad-' + item).attr('placeholder',final);
            }
     }
+
+function actualizarTotal (item) {
+        var cantidad = parseInt($('#cantidad-' + item).attr('placeholder'));
+        
+        var final = "" + numberConverted;
+        if(numberConverted >= 0){
+             $('#cantidad-' + item).attr('placeholder',final);
+           }
+    }
