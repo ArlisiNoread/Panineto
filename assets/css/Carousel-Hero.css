@@ -29,6 +29,24 @@ div.jumbotron.hero-technology {
       align-content: center;
 }
 
+div.jumbotron.hero-nature-eventos {
+  background-image:url('../../assets/img/slider/1.jpg');
+  font-size: 20px;
+  align-content: center;
+}
+
+div.jumbotron.hero-photography-eventos {
+  background-image:url('../../assets/img/slider/30.jpg');
+        font-size: 20px;
+      align-content: center;
+}
+
+div.jumbotron.hero-technology-eventos {
+  background-image:url('../../assets/img/slider/15.jpg');
+    font-size: 20px;
+      align-content: center;
+}
+
 h1.hero-title, h2.hero-title, h3.hero-title {
   text-shadow:0 3px 3px rgba(0,0,0,0.4);
   color:#fff;
