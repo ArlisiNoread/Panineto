@@ -121,3 +121,11 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .carousel-photo {
+        padding-top: 120px !important;
+        
+    }
+}
+
+
