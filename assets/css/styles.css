@@ -302,3 +302,12 @@ section-banner-box::before {
     height: 350px;
     
 }
+
+
+
+
+.jumbotron {
+    text-align: center; 
+    margin: 0; 
+    padding: 80px;
+}
