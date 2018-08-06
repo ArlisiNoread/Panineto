@@ -85,7 +85,7 @@ $(document).scroll(function() {
 });
 
 
-;(function($, win) {
+(function($, win) {
   $.fn.inViewport = function(cb) {
      return this.each(function(i,el) {
        function visPx(){
