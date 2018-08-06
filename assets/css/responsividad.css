@@ -86,3 +86,29 @@
         left: 64%;
     } 
 }
+
+
+@media only screen and (max-width: 770px) {
+    #pag-nav-1 {
+        position: relative;
+        left: auto;
+    }  
+    
+    #pag-nav-2 {
+        position: relative;
+        left: auto;
+
+    }  
+    
+    #pag-nav-3 {
+        position: relative;
+        left: auto;
+        
+
+    } 
+    
+    #pag-nav-4 {
+        position: relative;
+        left: auto;
+    } 
+}
