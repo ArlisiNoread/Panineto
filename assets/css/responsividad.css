@@ -1,44 +1,88 @@
 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1179px) {
-    .botones-nav {
-        margin-right: 0px;
-        width: 90px;
-        text-align: center;
-        
+@media only screen and (min-width: 1007px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 15%;
     }  
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1180px) {
-    .botones-nav {
-        margin-right: 0px;
-        width: 100px;
-        text-align: center;
-        
-    }  
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1290px) {
-    .botones-nav {
-        margin-right: 0px;
-        width: 110px;
-        text-align: center;
-        
-    }  
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1250px) {
-    .botones-nav {
-        margin-right: 0px;
-        width: 140px;
-        text-align: center;
-    }  
-}
-
     
+    #pag-nav-2 {
+        position: absolute;
+        left: 30%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 60%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 74%;
+    } 
+}
+
+@media only screen and (max-width: 1006px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 20%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 35%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 50%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 65%;
+    } 
+}
+
+@media only screen and (max-width: 990px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 25%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 38%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 50%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 63%;
+    } 
+}
+
+@media only screen and (max-width: 880px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 26%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 39%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 51%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 64%;
+    } 
+}
